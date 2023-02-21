@@ -1,3 +1,4 @@
+/* cabecalho */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -26,4 +27,35 @@
 
 .div-about {
   background-color: rgb(19, 34, 53);
+}
+
+/* main content */
+
+.container-main-content {
+  width: 400px;
+  /* background-color: antiquewhite; */
+}
+
+.container-main-content h1 {
+  font-size: 50px;
+  color: rgb(19, 34, 53);
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sem-imagem {
+  display: flex;
+  background-color: aqua;
+  width: 250px;
+}
+
+.saiba-mais {
+  background-color: rgb(19, 34, 53);
+  color: rgb(109, 218, 211);
+  text-decoration: none;
+  padding: 5px 25px;
+  border-radius: 5px;
 }
