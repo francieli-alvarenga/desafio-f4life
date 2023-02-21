@@ -22,7 +22,7 @@
 }
 
 .main-div {
-  height: 450px;
+  height: 380px;
 }
 
 .div-about {
@@ -58,4 +58,29 @@
   text-decoration: none;
   padding: 5px 25px;
   border-radius: 5px;
+}
+
+.dark-blue {
+  background-color: rgb(19, 34, 53);
+  color: aliceblue;
+  height: 380px;
+}
+
+.about-section {
+  /* background-color: violet; */
+  display: flex;
+  width: 980px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.about {
+  width: 45%;
+  /* background-color: brown; */
+  font-size: 20px;
+}
+
+.no-image {
+  background-color: bisque;
+  width: 45%;
 }
