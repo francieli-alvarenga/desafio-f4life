@@ -52,8 +52,8 @@
   width: 250px;
 }
 
-.saiba-mais {
-  background-color: rgb(19, 34, 53);
+.button {
+  background-color: #132235;
   color: rgb(109, 218, 211);
   text-decoration: none;
   padding: 5px 25px;
@@ -61,7 +61,7 @@
 }
 
 .dark-blue {
-  background-color: rgb(19, 34, 53);
+  background-color: #132235;
   color: aliceblue;
   height: 380px;
 }
@@ -87,4 +87,36 @@
 
 .branco {
   height: 400px;
+}
+
+.header-contact {
+  margin: 30px 0 0 0;
+  color: #132235;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #132235;
+  margin: 7px 0;
+}
+
+input,
+textarea {
+  border-radius: 7px;
+  width: 100%;
+  border: solid 1px;
+}
+
+textarea {
+  border-radius: 7px;
+}
+
+button.button {
+  color: aliceblue;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0;
+  margin: 7px;
+  padding: 10px 25px;
 }
