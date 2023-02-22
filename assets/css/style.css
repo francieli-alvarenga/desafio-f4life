@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   background-color: rgb(19, 34, 53);
-  height: 60px;
+  height: 71px;
 }
 
 .logo {
@@ -21,8 +21,9 @@
   width: 500px;
 }
 
-.main-div {
-  height: 380px;
+.paragraph-dark-text,
+h1 {
+  color: rgb(19, 34, 53);
 }
 
 .div-about {
@@ -36,9 +37,8 @@
   /* background-color: antiquewhite; */
 }
 
-.container-main-content h1 {
+h1 {
   font-size: 50px;
-  color: rgb(19, 34, 53);
 }
 
 .main-div {
@@ -48,8 +48,8 @@
 
 .sem-imagem {
   display: flex;
-  background-color: aqua;
-  width: 250px;
+  width: 628px;
+  height: 395px;
 }
 
 .button {
@@ -60,33 +60,36 @@
   border-radius: 5px;
 }
 
-.dark-blue {
+.dark-blue,
+.branco {
   background-color: #132235;
   color: aliceblue;
-  height: 380px;
+  height: 550px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .about-section {
   /* background-color: violet; */
   display: flex;
-  width: 980px;
+  width: 1200px;
   justify-content: space-around;
-  margin: 0 auto;
 }
 
 .about {
   width: 45%;
-  /* background-color: brown; */
   font-size: 20px;
 }
 
 .no-image {
-  background-color: bisque;
-  width: 45%;
+  display: flex;
+  width: 628px;
+  height: 395px;
 }
 
 .branco {
-  height: 400px;
+  background-color: aliceblue;
 }
 
 .header-contact {
