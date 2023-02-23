@@ -80,7 +80,7 @@ h1 {
 }
 
 .about {
-  width: 45%;
+  /* width: 45%; */
   font-size: 20px;
 }
 
@@ -147,4 +147,58 @@ footer p {
   width: 220px;
   height: 30px;
   margin: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+  }
+
+  .main-nav-container {
+    width: 375px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .about-section {
+    display: inline;
+    width: 375px;
+    height: 780px;
+  }
+
+  .about {
+    width: 375px;
+    height: 390px;
+    /* padding: 0 10px; */
+  }
+
+  a.button {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .no-image {
+    width: 375px;
+    height: 300px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .not-showing {
+    display: none;
+  }
+
+  .redes-sociais {
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .redes-sociais img {
+    height: 31px;
+  }
 }
