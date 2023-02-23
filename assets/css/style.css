@@ -153,8 +153,12 @@ footer p {
   display: none;
 }
 
-.testimonies {
+.not-showing {
   display: none;
+}
+
+.showing {
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
@@ -222,6 +226,7 @@ footer p {
   }
 
   .testimonies {
+    display: flex;
     height: 960px;
   }
 }
