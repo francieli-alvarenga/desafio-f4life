@@ -149,6 +149,14 @@ footer p {
   margin: 30px 0;
 }
 
+.hamburguer {
+  display: none;
+}
+
+.testimonies {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .main-nav {
   }
@@ -200,5 +208,20 @@ footer p {
 
   .redes-sociais img {
     height: 31px;
+  }
+
+  .hamburguer {
+    display: inline-block;
+    fill: #ffffff;
+    width: 30px;
+  }
+
+  .testimonies-section {
+    height: 1000px;
+    text-align: center;
+  }
+
+  .testimonies {
+    height: 960px;
   }
 }
